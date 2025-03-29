@@ -71,7 +71,9 @@ This project is licensed under the MIT License.
 
 ## 📩 Contact
 
-For any queries, feel free to reach out via GitHub Issues or Discussions.
+Feel free to reach out via:
+- **LinkedIn** - [Meeturi Ajay Kumar](https://www.linkedin.com/in/meeturi-ajay-kumar-a02743248/)
+- **Email** - meeturiajaykumar.23@gmail.com
 
 ---
 
