@@ -20,6 +20,15 @@ An intelligent finance assistant that fetches real-time stock data, searches the
 - **Dependency Management**: Virtual environment (`.venv`)
 - **Version Control**: Git & GitHub
 
+---
+
+## Screenshots
+### Command Line Interface
+- Image1
+  ![Image1](https://github.com/MeeturiAjay/Finance-AI-Agent/blob/main/Screenshots/Screenshot%202025-03-30%20100528.png)
+
+---
+
 ## 📦 Installation & Setup
 
 1. **Clone the repository**
