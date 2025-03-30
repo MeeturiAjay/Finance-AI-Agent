@@ -1,15 +1,16 @@
+from phi.tools.yfinance import YFinanceTools
+import phi.api
 from phi.agent import Agent
 from phi.tools.duckduckgo import DuckDuckGo
-from phi.tools.yfinance import YFinanceTools
-from phi.model.groq import Groq
 from dotenv import load_dotenv
 import os
+import phi
+from phi.playground import Playground, serve_playground_app
+from phi.model.groq import Groq
 
-# Load environment variables
 load_dotenv()
 
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
-os.environ["PHIDATA_API_KEY"] = os.getenv("PHIDATA_API_KEY")
+phi.api = os.getenv("PHIDATA_API_KEY")
 
 # Web Search Agent
 web_search_agent = Agent(
@@ -34,17 +35,7 @@ finance_agent = Agent(
     return_task_output=True  # Forces it to return a response
 )
 
-# Multi-Agent System
-multi_agent = Agent(
-    name="Multi-Agent System",
-    role="Combine responses from web search and finance.",
-    tools=[DuckDuckGo(), YFinanceTools()],
-    model=Groq(id="llama-3.3-70b-specdec"),
-    instructions=["Always include sources", "Use tables to display the data"],
-    show_tool_calls=True,
-    markdown=True,
-    return_task_output=True
-)
+app = Playground(agents = [web_search_agent, finance_agent]).get_app()
 
-# Ask Question
-multi_agent.print_response("Now tell me how should a beginner start with which stocks? which company?")
+if __name__ == "__main__":
+    serve_playground_app("code_ground:app", reload = True)
