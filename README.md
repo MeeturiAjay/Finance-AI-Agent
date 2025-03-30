@@ -27,6 +27,12 @@ An intelligent finance assistant that fetches real-time stock data, searches the
 - Image1
   ![Image1](https://github.com/MeeturiAjay/Finance-AI-Agent/blob/main/Screenshots/Screenshot%202025-03-30%20100528.png)
 
+- Image2
+  ![Image2](https://github.com/MeeturiAjay/Finance-AI-Agent/blob/main/Screenshots/Screenshot%202025-03-30%20100558.png)
+
+- Image3
+  ![Image3](https://github.com/MeeturiAjay/Finance-AI-Agent/blob/main/Screenshots/Screenshot%202025-03-30%20100612.png)
+
 ---
 
 ## 📦 Installation & Setup
