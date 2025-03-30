@@ -22,7 +22,7 @@ An intelligent finance assistant that fetches real-time stock data, searches the
 
 ---
 
-## Screenshots
+## 📸Screenshots
 ### Command Line Interface
 - Image1
   ![Image1](https://github.com/MeeturiAjay/Finance-AI-Agent/blob/main/Screenshots/Screenshot%202025-03-30%20100528.png)
