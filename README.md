@@ -2,6 +2,8 @@
 
 An intelligent finance assistant that fetches real-time stock data, searches the web for financial news, and provides insights using AI-powered models. This project leverages multiple agents to deliver accurate and up-to-date information.
 
+---
+
 ## 🚀 Features
 
 - **Stock Market Insights**: Retrieves stock data using `yfinance`.
@@ -9,6 +11,8 @@ An intelligent finance assistant that fetches real-time stock data, searches the
 - **AI-Powered Analysis**: Utilizes Groq’s AI models for generating financial insights.
 - **Multi-Agent System**: Implements different specialized agents to handle finance and search tasks separately.
 - **Customizable Responses**: Generates structured output, including tables for better readability.
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -67,6 +71,7 @@ An intelligent finance assistant that fetches real-time stock data, searches the
      OPENAI_API_KEY=your_openai_api_key (if needed)
      PHIDATA_API_KEY=your_phidata_api_key (if needed)
      ```
+---
 
 ## 🚀 Usage
 
@@ -78,6 +83,7 @@ Example query:
 ```python
 multi_agent.print_response("What is the difference between the NVIDIA & Tesla's share prices? Which one should I buy?")
 ```
+---
 
 ## 🤝 Contributing
 
