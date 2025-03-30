@@ -33,6 +33,13 @@ An intelligent finance assistant that fetches real-time stock data, searches the
 - Image3
   ![Image3](https://github.com/MeeturiAjay/Finance-AI-Agent/blob/main/Screenshots/Screenshot%202025-03-30%20100612.png)
 
+### PhiData Web Interface
+- View1
+  ![View1](https://github.com/MeeturiAjay/Finance-AI-Agent/blob/main/Screenshots/Screenshot%202025-03-30%20095148.png)
+
+- View2
+  ![View2](https://github.com/MeeturiAjay/Finance-AI-Agent/blob/main/Screenshots/Screenshot%202025-03-30%20100334.png)
+
 ---
 
 ## 📦 Installation & Setup
